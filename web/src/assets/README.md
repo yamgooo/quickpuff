@@ -1,0 +1,1 @@
+Place migrated visual assets (Peak renders, gradients, noise textures, icons, sounds) here.

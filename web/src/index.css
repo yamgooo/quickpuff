@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("./assets/fonts/Rajdhani-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Rajdhani";
+  src: url("./assets/fonts/Rajdhani-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+}
+
+:root {
+  color-scheme: dark;
+  font-family: "Rajdhani", "Inter", system-ui, sans-serif;
+  background: #07080d;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background:
+    radial-gradient(1000px 500px at 10% -10%, rgba(255, 79, 163, 0.25), transparent 55%),
+    radial-gradient(900px 500px at 95% 0%, rgba(40, 132, 255, 0.2), transparent 55%),
+    linear-gradient(160deg, #07080d 0%, #0f111a 45%, #0b0c12 100%);
+  color: #f2eef4;
+}
+
+#root { min-height: 100vh; }
